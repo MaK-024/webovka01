@@ -1,12 +1,12 @@
 body {
-    font-family: "Source Serif 4", sans-serif;
+    font-family: "Source Serif 4", serif;
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
     padding: 20px;
 }
-h1 {
-    font-family: "Source Serif 4", sans-serif;
+h1, h2, h3 {
+    font-family: "Inter", serif;
     color: #007bff;
 }
 p {
