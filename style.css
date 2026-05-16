@@ -1,14 +1,18 @@
 body {
-    font-family: "Source Serif 4", serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+  font-family: "Source Serif 4", serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #1a1a1a;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
+
 h1, h2, h3 {
-    font-family: "Inter", sans-serif;
-    color: #007bff;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.02em;
 }
+
 p {
-    font-size: 18px;
-    line-height: 1.6;}
+  margin-bottom: 1em;
+}
