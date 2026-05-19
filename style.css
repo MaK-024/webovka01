@@ -1,8 +1,27 @@
+:root {
+  /* Base neutrals */
+  --nd-cream: #F2EDE3;   /* CRT světlo / papír */
+  --nd-beige: #E7D8B1;   /* vybledlé stěny */
+  --nd-tan: #C9B28C;     /* karton / starý papír */
+
+  /* Cool tones */
+  --nd-mint-gray: #8FA6A1; /* školní chodby */
+  --nd-denim: #6B7C8C;     /* jeans / 2000s modrá */
+  --nd-lavender: #B7A3C7;  /* pastelové světlo */
+
+  /* Accent */
+  --nd-orange: #D96C4A;    /* retro 2000s akcent */
+
+  /* Dark contrast */
+  --nd-chocolate: #3E3A36; /* text / linie */
+}
+
 body {
+  background-color: var(--nd-tan);
   font-family: "Source Serif 4", serif;
   font-size: 18px;
   line-height: 1.7;
-  color: #1a1a1a;
+  color: var(--nd-chocolate);
   max-width: 720px;
   margin: 40px auto;
   padding: 0 20px;
