@@ -35,6 +35,14 @@
   --tomato-jam: #c3423fff;
   --iron-grey: #404e4dff;
 
+    --dark-gray: #3b3c47;
+    --red: #d82431;
+    --taupe: #6b5a5c;
+    --blue: #5d7fc0;
+    --orange: #e7a24a;
+    --dark-red: #982823;
+    --brown: #a37256;
+    --light-gray: #dfe4ea;
 }
 
 @keyframes pohyb {
@@ -104,9 +112,9 @@ h1:hover, h2:hover, h3:hover {
 
     text-decoration: none;
 
-    background-color: var(--nd-orange);
+    background-color: var(--dark-gray);
 
-    color: var(--nd-denim);
+    color: var(--light-gray);
 
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -117,7 +125,7 @@ h1:hover, h2:hover, h3:hover {
 }
 
 .main-nav a:hover {
-    background-color: var(--nd-beige);
+    background-color: var(--red);
 
     color: white;
 }
@@ -138,15 +146,15 @@ h1:hover, h2:hover, h3:hover {
 .sec-nav a {
     display: block;
 
-    padding: 4px;
+    padding: 8px;
 
     text-align: center;
 
     text-decoration: none;
 
-    background-color: var(--nd-orange);
+    background-color: var(--blue);
 
-    color: var(--nd-denim);
+    color: white;
 
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -157,9 +165,9 @@ h1:hover, h2:hover, h3:hover {
 }
 
 .sec-nav a:hover {
-    background-color: var(--nd-beige);
+    background-color: var(--orange);
 
-    color: white;
+    color: #111;
 }
 
 img {
