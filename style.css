@@ -71,7 +71,8 @@
 
 
 body {
-  background-image: url('carpet04.webp');
+  background-image: url('carpet05.webp');
+  background-attachment: fixed;
   font-family: "Source Serif 4", serif;
   background-color: rgba(0,0,0,0.4);
   backdrop-filter: blur(5px);
@@ -94,6 +95,7 @@ h1:hover, h2:hover, h3:hover {
 */
 .main-nav ul {
     display: flex;
+
 
     margin: 0;
     padding: 0;
