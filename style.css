@@ -14,6 +14,27 @@
 
   /* Dark contrast */
   --nd-chocolate: #3E3A36; /* text / linie */
+ 
+  /* --- https://coolors.co/ --- */
+
+  --willow-green: #8ed081ff;
+  --celadon: #b4d2baff;
+  --vanilla-custard: #dce2aaff;
+  --copper: #b57f50ff;
+  --ebony: #4b543bff;
+
+  --pale-slate: #c8bfc7ff;
+  --sage-green: #7a9b76ff;
+  --grey-olive: #8a7e72ff;
+  --night-bordeaux: #5a2328ff;
+  --pitch-black: #090302ff;
+
+  --sky-surge: #5bc0ebff;
+  --banana-cream: #fde74cff;
+  --yellow-green: #9bc53dff;
+  --tomato-jam: #c3423fff;
+  --iron-grey: #404e4dff;
+
 }
 
 @keyframes pohyb {
@@ -56,37 +77,12 @@ h1, h2, h3 {
   font-family: "Inter", sans-serif;
   letter-spacing: -0.02em;
 }
-/*
-nav {
-
-  display: block;
-}
-
-nav a {
-  display: flex;
-  font-family: "Inter", sans-serif;
-  color: var(--nd-denim);
-  font-weight: bold;
-}
-
-.box {
-  background-color: var(--nd-orange);
-  justify-content: center;
-  transition: 0.7s;
-  width: 100px;
-  height: 30px;
-}
-
-.box:hover {
-  background-color: var(--nd-beige);
-}
-
-/*  pokus o blbost
+/* --- pokus o blbost ---
 h1:hover, h2:hover, h3:hover {
   animation: najeti-mysi 1s infinite;  
 }
 */
-nav ul {
+.main-nav ul {
     display: flex;
 
     margin: 0;
@@ -95,14 +91,14 @@ nav ul {
     list-style: none;
 }
 
-nav li {
+.main-nav li {
     flex: 1;
 }
 
-nav a {
+.main-nav a {
     display: block;
 
-    padding: 15px;
+    padding: 4px;
 
     text-align: center;
 
@@ -120,7 +116,47 @@ nav a {
         color 0.4s;
 }
 
-nav a:hover {
+.main-nav a:hover {
+    background-color: var(--nd-beige);
+
+    color: white;
+}
+
+.sec-nav ul {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.sec-nav li {
+    flex: 1;
+}
+
+.sec-nav a {
+    display: block;
+
+    padding: 4px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    background-color: var(--nd-orange);
+
+    color: var(--nd-denim);
+
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+
+    transition:
+        background-color 0.4s,
+        color 0.4s;
+}
+
+.sec-nav a:hover {
     background-color: var(--nd-beige);
 
     color: white;
