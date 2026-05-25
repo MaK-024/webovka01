@@ -87,7 +87,20 @@ body {
   color: var(--nd-chocolate);
   max-width: 720px;
   margin: 40px auto;
-  padding: 0 20px;
+  padding: 0 0px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 150px;
+  background-image: url('./picture/napoleons-family.webp');
+  background-size: cover;
+  background-position: center;
 }
 
 h1, h2, h3 {
