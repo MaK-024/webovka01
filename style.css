@@ -85,7 +85,7 @@ body {
   font-size: 18px;
   line-height: 1.7;
   color: var(--nd-chocolate);
-  max-width: 740px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px;
 }
@@ -210,6 +210,10 @@ h1:hover, h2:hover, h3:hover {
     background-color: var(--orange);
 
     color: #111;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 article {
