@@ -97,10 +97,18 @@ header {
 
 .banner {
   width: 100%;
-  height: 150px;
-  background-image: url('./picture/napoleons-family.webp');
+  height: 210px;
   background-size: cover;
   background-position: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
 }
 
 h1, h2, h3 {
@@ -204,6 +212,7 @@ h1:hover, h2:hover, h3:hover {
     color: #111;
 }
 
+/*
 img {
   max-width: 100%;
   height: auto;
@@ -211,10 +220,12 @@ img {
   margin: 20px auto;
 }
 
-
+/* pokus s o animaci obrázků
 img:hover {
   animation: pohyb 0.2s infinite alternate;
 }
+*/
+
 
 p {
   margin-bottom: 1em;
