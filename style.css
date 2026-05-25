@@ -139,6 +139,12 @@ h1:hover, h2:hover, h3:hover {
         color 0.4s;
 }
 
+.main-nav a.active {
+    background-color: var(--tomato-jam);
+
+    color: white;
+}
+
 .main-nav a:hover {
     background-color: var(--red);
 
