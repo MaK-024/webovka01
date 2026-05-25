@@ -223,6 +223,14 @@ article {
     max-width: 700px;
     margin: auto;
     line-height: 1.6;
+
+        min-height: 80vh;
+
+    padding: 60px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*
