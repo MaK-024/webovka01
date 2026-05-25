@@ -45,6 +45,12 @@
     --light-gray: #dfe4ea;
 }
 
+* {
+  margin: 0;
+  padding:0;
+
+}
+
 @keyframes pohyb {
   from {
 /*    transform: translateX(0); */
@@ -87,6 +93,11 @@ body {
 h1, h2, h3 {
   font-family: "Inter", sans-serif;
   letter-spacing: -0.02em;
+}
+
+.title-link {
+  text-decoration: none;
+  color: inherit;
 }
 /* --- pokus o blbost ---
 h1:hover, h2:hover, h3:hover {
