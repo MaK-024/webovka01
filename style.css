@@ -267,4 +267,6 @@ p {
 .copyleft {
   display: inline-block;
   transform: rotateY(180deg);
+      max-width: 700px;
+    margin: auto;
 }
