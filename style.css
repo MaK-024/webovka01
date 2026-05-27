@@ -270,3 +270,33 @@ p {
       max-width: 700px;
     margin: auto;
 }
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 30px 0;
+
+    background-color: rgba(255,255,255,0.85);
+}
+
+th {
+    background-color: var(--dark-gray);
+
+    color: white;
+
+    padding: 12px;
+
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+
+    border-bottom: 1px solid var(--taupe);
+}
+
+tr:hover {
+    background-color: rgba(255,255,255,0.4);
+}
