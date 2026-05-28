@@ -229,7 +229,7 @@ html {
     scroll-behavior: smooth;
 }
 
-article {
+article, .objednavka {
     scroll-margin-top: 230px;
     max-width: 700px;
     margin: auto;
@@ -306,3 +306,7 @@ tr:hover {
 
     color: var(--taupe);
 }
+/*
+#objednavka {
+    text-align: center;
+} */

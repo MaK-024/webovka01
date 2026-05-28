@@ -43,7 +43,7 @@
                 <h1><a class="title-link" href="https://mak-024.github.io/webovka01/">Webovka <em>nula</em><strong>JEDNA</strong>...</a></h1>
                 <p>Znáte Napoleona Dynamita? Ne? Ale to je chyba!</p>
             </article>
-            <section id="objednavka">
+            <section class="objednavka">
                 <h2>Objednejte si!</h2>
                 <p>Máme pro Vás pár drobností, které by se Vám mohli hodit.</p>
                 <table>
@@ -200,14 +200,16 @@
                     
                 </table>
 
-                <form>
+                <form action="thanks.html">
                     <label for="name">Jméno, příjmení:</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" required>
 
                     <label for="email">Email:</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" required>
 
-                    <button type="submit">Objednat!</button>
+                    <button type="submit">
+                        Objednat
+                    </button>
                 </form>
             
             
