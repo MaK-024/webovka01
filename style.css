@@ -1,4 +1,5 @@
 :root {
+  /* --- paleta ChatGPT a Claude --- */
   /* Base neutrals */
   --nd-cream: #F2EDE3;   /* CRT světlo / papír */
   --nd-beige: #E7D8B1;   /* vybledlé stěny */
@@ -35,14 +36,15 @@
   --tomato-jam: #c3423fff;
   --iron-grey: #404e4dff;
 
-    --dark-gray: #3b3c47;
-    --red: #d82431;
-    --taupe: #6b5a5c;
-    --blue: #5d7fc0;
-    --orange: #e7a24a;
-    --dark-red: #982823;
-    --brown: #a37256;
-    --light-gray: #dfe4ea;
+  /* --- podle obrázku --- */
+  --dark-gray: #3b3c47;
+  --red: #d82431;
+  --taupe: #6b5a5c;
+  --blue: #5d7fc0;
+  --orange: #e7a24a;
+  --dark-red: #982823;
+  --brown: #a37256;
+  --light-gray: #dfe4ea;
 }
 
 * {
@@ -75,6 +77,25 @@
   }
 }
 
+@keyframes pulse {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* --- hra s animacemi ---
+h1:hover, h2:hover, h3:hover {
+  animation: najeti-mysi 1s infinite;  
+} */
 
 body {
   background-image: url('picture/carpet05.webp');
@@ -94,16 +115,15 @@ header {
   top: 0;
 }
 
-header, main, footer {
-  max-width: 1000px;
-  margin: auto;
+footer {
+  max-width: 700px;
 }
 
 .page-wrapper {
-    max-width: 1000px;
-    margin: auto;
-    background: rgba(242, 237, 227, 0.92);
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  max-width: 900px;
+  margin: auto;
+  background: rgba(242, 237, 227, 0.92);
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
 .banner {
@@ -114,12 +134,10 @@ header, main, footer {
 }
 
 .banner img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 h1 {
@@ -145,152 +163,116 @@ h2, h3 {
   margin: auto;
 }
 
-.title-link {
-    text-decoration: none;
-
-    color: var(--nd-chocolate);
+.title-link, .link-out {
+  text-decoration: none;
+  color: var(--nd-chocolate);
 }
 
 .subtitle {
-    display: block;
-    font-size: 0.6em;
-    font-style: italic;
-    text-align: center;
-    margin-top: -5px;
+  display: block;
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+  margin-top: -5px;
 }
 
 .skryty-nadpis {
-    position: absolute;
-
-    width: 1px;
-    height: 1px;
-
-    padding: 0;
-    margin: -1px;
-
-    overflow: hidden;
-
-    clip: rect(0, 0, 0, 0);
-
-    white-space: nowrap;
-
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .title-link {
   text-decoration: none;
   color: inherit;
 }
-/* --- pokus o blbost ---
-h1:hover, h2:hover, h3:hover {
-  animation: najeti-mysi 1s infinite;  
-}
-*/
+
 .main-nav ul {
-    display: flex;
-
-
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .main-nav li {
-    flex: 1;
+  flex: 1;
 }
 
 .main-nav a {
-    display: block;
-
-    padding: 4px;
-
-    text-align: center;
-
-    text-decoration: none;
-
-    background-color: var(--dark-gray);
-
-    color: var(--light-gray);
-
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-
-    transition:
-        background-color 0.4s,
-        color 0.4s;
+  display: block;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  transition:
+    background-color 0.4s,
+    color 0.4s;
 }
 
 .main-nav a.active {
-    background-color: var(--tomato-jam);
-
-    color: white;
+  background-color: var(--tomato-jam);
+  color: white;
 }
 
 .main-nav a:hover {
-    background-color: var(--red);
-
-    color: white;
+  background-color: var(--red);
+  color: white;
 }
 
 .sec-nav ul {
-    display: flex;
-
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .sec-nav li {
-    flex: 1;
+  flex: 1;
 }
 
 .sec-nav a {
-    display: block;
-
-    padding: 4px;
-
-    text-align: center;
-
-    text-decoration: none;
-
-    background-color: var(--blue);
-
-    color: white;
-
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-
-    transition:
-        background-color 0.4s,
-        color 0.4s;
+  display: block;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--blue);
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  transition:
+    background-color 0.4s,
+    color 0.4s;
 }
 
 .sec-nav a:hover {
-    background-color: var(--orange);
-
-    color: #111;
+  background-color: var(--orange);
+  color: #111;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-article, .objednavka {
-    scroll-margin-top: 230px;
-    max-width: 700px;
-    margin: auto;
-    line-height: 1.6;
-
+article, .objednavka, footer {
+  scroll-margin-top: 230px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
 /*    
-    min-height: 80vh;
-
-    padding: 60px 40px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center; */
+  min-height: 80vh;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
 
 /*
@@ -315,46 +297,44 @@ p {
 .copyleft {
   display: inline-block;
   transform: rotateY(180deg);
-      max-width: 700px;
-    margin: auto;
 }
 
 table {
-    width: 100%;
-
-    border-collapse: collapse;
-
-    margin: 30px 0;
-
-    background-color: rgba(255,255,255,0.85);
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  background-color: rgba(255,255,255,0.85);
 }
 
 th {
-    background-color: var(--dark-gray);
-
-    color: white;
-
-    padding: 12px;
-
-    text-align: left;
+  background-color: var(--dark-gray);
+  color: white;
+  padding: 12px;
+  text-align: left;
 }
 
 td {
-    padding: 12px;
+  padding: 12px;
 
-    border-bottom: 1px solid var(--taupe);
+  border-bottom: 1px solid var(--taupe);
 }
 
+/* --- pokus s hover efektem pro řádky tabulky
+    --- NEGUNGUJE ---
 tr:hover {
-    background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.4);
 }
+  */
 
 .poznamka {
-    font-size: 0.9em;
-
-    color: var(--taupe);
+  font-size: 0.9em;
+  color: var(--taupe);
 }
-/*
-#objednavka {
-    text-align: center;
-} */
+
+.link-out {
+  text-decoration: none;
+  color: var(--nd-chocolate);
+/*  display: inline-block;    */
+  animation: pulse 2s infinite;
+  float: right;    
+}
