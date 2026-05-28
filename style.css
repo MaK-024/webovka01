@@ -263,17 +263,26 @@ html {
   scroll-behavior: smooth;
 }
 
-article, .objednavka, footer {
+article {
   scroll-margin-top: 230px;
   max-width: 700px;
   margin: auto;
   line-height: 1.6;
+  display: flow-root; /* aby mi text neobtékal jiné  obrázky */
+  text-align: justify;
 /*    
   min-height: 80vh;
   padding: 60px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center; */
+}
+
+article, .objednavka, footer {
+  scroll-margin-top: 230px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
 }
 
 /*
@@ -326,6 +335,35 @@ tr:hover {
   background-color: rgba(255,255,255,0.4);
 }
   */
+
+.portrait {
+  transition: transform 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.25); /* stín */
+  
+  width: 180px;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.right {
+    float: right;
+    margin: 0 0 15px 20px;
+}
+
+.left {
+    float: left;
+    margin: 0 20px 15px 0;
+}
+
+/* --- lehké zvednutí a pootočení doprava --- */
+.left:hover {
+    transform: scale(1.03) rotate(-2deg);
+}
+
+/* --- lehké zvednutí a pootočení doleva --- */
+.right:hover {
+    transform: scale(1.03) rotate(2deg);
+}
 
 .poznamka {
   font-size: 0.9em;
