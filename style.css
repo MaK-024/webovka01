@@ -346,6 +346,7 @@ tr:hover {
 }
 
 /* --- první obrázek mi NĚKDE moc čouhá nahoru, tak posun níž 
+  --- tak nakonec vyřešeno prohozením <h2> a <img>, ale JEN u Kipa :-) ---
 .first-portrait {
     margin-top: 35px;
 } */
