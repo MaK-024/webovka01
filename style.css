@@ -345,6 +345,11 @@ tr:hover {
   transition: transform 0.3s ease;
 }
 
+/* --- první obrázek mi NĚKDE moc čouhá nahoru, tak posun níž 
+.first-portrait {
+    margin-top: 35px;
+} */
+
 .right {
     float: right;
     margin: 0 0 15px 20px;
