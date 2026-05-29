@@ -264,7 +264,7 @@ html {
 }
 
 article {
-  scroll-margin-top: 230px;
+  scroll-margin-top: 240px;
   max-width: 700px;
   margin: auto;
   line-height: 1.6;
@@ -279,7 +279,7 @@ article {
 }
 
 article, .objednavka, footer {
-  scroll-margin-top: 230px;
+  scroll-margin-top: 240px;
   max-width: 700px;
   margin: auto;
   line-height: 1.6;
