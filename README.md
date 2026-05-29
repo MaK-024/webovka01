@@ -1,6 +1,6 @@
 # Napoleon Dynamite – legenda z Prestonu v Idaho
 
-Jednoduchá webová prezentace vytvořená jako školní projekt z HTML a CSS.
+Školní projekt vytvořený pro procvičení HTML a CSS.
 
 ## Veřejná adresa webu
 
@@ -55,4 +55,4 @@ Obrázky obsahují atribut `alt`. Formulářová pole jsou propojena s popisky p
 
 ## Autor
 
-Školní projekt vytvořený pro procvičení HTML a CSS.
+Martin Kriššák, V2I
