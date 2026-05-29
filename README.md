@@ -8,6 +8,8 @@ Web je dostupný zde:
 
 https://mak-024.github.io/webovka01/
 
+Repozitář dostupný na https://github.com/mak-024/webovka01
+
 ## Téma webu
 
 Tématem webové prezentace je svět kolem Napoleona Dynamita, jeho rodiny, přátel, okolí, fan clubu a fiktivního obchodu s relikviemi.
@@ -22,7 +24,7 @@ Webová prezentace obsahuje:
 - hlavní navigační menu,
 - odkazy do části vlastního dokumentu,
 - odkazy na jiné HTML dokumenty prezentace,
-- externí odkaz,
+- externí odkaz je na webovku02,
 - obrázky,
 - tabulku,
 - formulář se vstupními políčky různého typu.
@@ -30,7 +32,7 @@ Webová prezentace obsahuje:
 ## Použité technologie
 
 - HTML5
-- CSS3
+- CSS
 - GitHub Pages
 
 ## Struktura webu
