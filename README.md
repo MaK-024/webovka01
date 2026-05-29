@@ -29,7 +29,7 @@ Webová prezentace obsahuje:
 - tabulku,
 - formulář se vstupními políčky různého typu.
 
-Byla přidána favicon ve 3 velikosten (32x32, 64x64 a 128x128). Dále byly upraveny mezery za spojkami a předložkami ve větách, aby nedocházelo k nevhodnému zalamování věty.
+Byla přidána favicon ve 3 velikostech (32x32, 64x64 a 128x128). Dále byly upraveny mezery za spojkami a předložkami ve větách, aby nedocházelo k nevhodnému zalamování věty.
 
 ## Použité technologie
 
