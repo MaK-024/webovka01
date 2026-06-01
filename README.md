@@ -14,6 +14,8 @@ Repozitář dostupný na https://github.com/mak-024/webovka01
 
 Tématem webové prezentace je svět kolem Napoleona Dynamita, jeho rodiny, přátel, okolí, fan clubu a fiktivního obchodu s relikviemi.
 
+![stránka o rodinně](picture/web.webp)
+
 ## Splnění zadání
 
 Webová prezentace obsahuje:
