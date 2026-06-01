@@ -71,7 +71,7 @@ Pro favicon byl zvolen formát souboru `*.png`. Jelikož jde o malé obrázky, v
 
 ## Externí odkaz
 
-Externí odkaz je vložen do patičky `<footer>` a odkazuje na vedlější repozitář, kde je opět web o Napoleonovi Dynamitovi, jen opravený a mírně vylepšený pomocí Antigravty.
+Externí odkaz je vložen do patičky `<footer>` a odkazuje na vedlější repozitář, kde je opět web o Napoleonovi Dynamitovi, jen opravený a mírně vylepšený pomocí Antigravity.
 
 
 ## Formuláře
