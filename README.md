@@ -74,9 +74,9 @@ Pro favicon byl zvolen formát souboru `*.png`. Jelikož jde o malé obrázky, v
 Externí odkaz je vložen do patičky `<footer>` a odkazuje na vedlější repozitář, kde je opět web o Napoleonovi Dynamitovi, jen opravený a mírně vylepšený pomocí Antigravity.
 
 
-## Formuláře
+## Formuláře a tabulku
 
-Formuláře jsem použil v pseudo shopu s relikviemi na stránce "lipstick". Použity byli značky (tagy) `<input type="number" min="0" max="99">` pro vkládání množství objednávaného materiálu. Pro vytvoření iluze objednávky jsem použil `<label for="name">Jméno, příjmení:</label>` a `<input type="text" id="name" required>` pro vkládání jména a také emailové adresy pro dořešení objednávky. Po stisku tlačítka  `<button type="submit">` se otevře malá stránka čistě jen na "potvrzení" objednávky.
+Formuláře a tabulku jsem použil v pseudo shopu s relikviemi na stránce "lipstick". Použity byli značky (tagy) `<input type="number" min="0" max="99">` pro vkládání množství objednávaného materiálu. Pro vytvoření iluze objednávky jsem použil `<label for="name">Jméno, příjmení:</label>` a `<input type="text" id="name" required>` pro vkládání jména a také emailové adresy pro dořešení objednávky. Po stisku tlačítka  `<button type="submit">` se otevře malá stránka čistě jen na "potvrzení" objednávky.
 
 
 ## Splnění zadání
